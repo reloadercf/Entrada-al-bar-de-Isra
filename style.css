@@ -1,9 +1,32 @@
-.frontal{
+@import url('https://fonts.googleapis.com/css?family=Reenie+Beanie&display=swap');
+
+body{
+    box-sizing: border-box;
+    margin:0;
     background-image: url('https://images.pexels.com/photos/544961/pexels-photo-544961.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260');
 }
+
+.contenedor {
+    background-color: rgba(255, 255, 255, 0.639);
+    height: calc( 100vh - 20px );
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px 30px 0 30px;
+}
+
+.contenedortitulo{
+    background-color:white;
+    height:40%;
+    position: relative;
+}
+.imagen{
+    height: 400px;
+}
+
 h1{
-    color: azure;
-    font-size: 100px;
+    text-align: center;
+    font-family: 'Reenie Beanie', cursive;
+    font-size: 5rem;
 }
 
 .imprimir{

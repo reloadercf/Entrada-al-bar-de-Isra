@@ -5,6 +5,15 @@ let trabajadores={nombreTrabajor:'Jose Luis',
                     puesto:'Gerente'
 }
 
+let tecnologia=['y','y','y']
+let vacio=[]
+tecnologia.map((tech)=>{
+    
+    return vacio.push(tech.replace('y', '1'))
+    
+})
+console.warn(tecnologia)
+console.log(vacio)
 
 console.log(edad)
 console.log(nombre)
